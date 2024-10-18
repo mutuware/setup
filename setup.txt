@@ -1,0 +1,58 @@
+# Edit as needed
+
+# Browser
+# winget install Microsoft.Edge.Beta
+winget install Google.Chrome
+winget install Mozilla.Firefox
+ 
+# Chat
+winget install Microsoft.Teams
+ 
+# Windows and CLI
+winget install Microsoft.PowerShell
+winget install JanDeDobbeleer.OhMyPosh
+ 
+# Git
+winget install Git.Git
+winget install GitHub.cli
+ 
+# Development Enviroment
+winget install Microsoft.dotnet
+ 
+# IDE
+winget install Microsoft.VisualStudio.2024.Community
+winget install Microsoft.VisualStudioCode
+winget install Microsoft.SQLServer.2024.Developer
+winget install Microsoft.SQLServerManagementStudio
+winget install Microsoft.AzureDataStudio
+ 
+# Miscellaneous
+winget install 7zip.7zip
+winget install thedocumentfoundation.libreoffice
+winget install VideoLAN.VLC
+winget install notepadplusplus
+
+#############################
+
+# Configure Git
+git config --global user.email "admin@mutuware.com"
+git config --global user.name "Admin"
+
+# Configure OhMyPosh
+oh-my-posh font install meslo
+
+#############################
+# Manual Process
+# Configure Terminal to use font via  CTRL + SHIFT + ,
+# {
+#    "profiles":
+#    {
+#        "defaults":
+#        {
+#            "font":
+#            {
+#                "face": "MesloLGM Nerd Font"
+#            }
+#        }
+#    }
+#}
